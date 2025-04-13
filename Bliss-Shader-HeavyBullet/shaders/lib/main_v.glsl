@@ -1,5 +1,5 @@
-#include "/settings.glsl"
-#include "/dual_distort.glsl" // Подключение функции dual_distort
+#include "settings.glsl"
+#include "dual_distort.glsl" // Подключение функции dual_distort
 
 #if FLASH_LIGHT > 0
 uniform vec3 flashlightDirection; // Направление света фонарика
