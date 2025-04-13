@@ -2,6 +2,25 @@
 
 #define BLISS_SHADERS 0 // [0 1 2]
 
+/////////////////////////////////////////
+// ----- HAND HELD TORCH SETTINGS ----- //
+/////////////////////////////////////////
+
+#define HANDHELD_LIGHT_ENABLED 1 // [0 1] включение/выключение ручного света
+#define HANDHELD_LIGHT_RANGE 10 // [1 2 3 4 5 6 7 8 9 10 15 20 25 30] диапазон света
+#define HANDHELD_LIGHT_INTENSITY 1.0 // [0.1 0.2 0.5 1.0 1.5 2.0] интенсивность света
+#define HANDHELD_LIGHT_COLOR_R 1.0 // [0.0 0.1 0.2 0.5 1.0] красный компонент цвета
+#define HANDHELD_LIGHT_COLOR_G 0.8 // [0.0 0.1 0.2 0.5 1.0] зеленый компонент цвета
+#define HANDHELD_LIGHT_COLOR_B 0.6 // [0.0 0.1 0.2 0.5 1.0] синий компонент цвета
+
+// Flashlight Settings
+#define FLASH_LIGHT 0 //[0 1]
+#define FLASHLIGHT_BRIGHTNESS 5.0 //[0.1 10.0]
+#define FLASHLIGHT_WIDTH 1.0 //[0.1 1.0]
+#define FLASHLIGHT_FLICKER_STR 0.0 //[0.0 1.0]
+#define FLASHLIGHT_FLICKER_SPEED 1.0 //[0.1 5.0]
+#define FLASHLIGHT_DISTANCE 1.0 //[1.0 10.0]
+
 ////////////////////////////////////////
 // ----- WATER RELATED SETTINGS ----- //
 ////////////////////////////////////////
