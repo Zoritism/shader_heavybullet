@@ -30,6 +30,5 @@ void applyFlashlight(inout vec3 color, vec3 worldPos, vec2 fragCoord) {
 #endif
 
 void main() {
-    // Временно отображаем значение flashlightDirection как цвет
-    gl_FragData[0] = vec4(flashlightDirection, 1.0); // RGB = XYZ, Alpha = 1
+    gl_FragData[0] = vec4(1.0, 0.0, 0.0, 1.0); // Красный цвет
 }
