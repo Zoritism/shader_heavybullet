@@ -19,11 +19,14 @@
 #define FLASH_LIGHT_CRISPNESS 3.0 // [1.0 5.0] Чёткость границ светового конуса
 #define FLASH_LIGHT_LISTED_ITEMS_ONLY 0 // [0 1] Включение фонарика только для определённых предметов
 #define FLASHLIGHT_BRIGHTNESS 5.0 // [0.1 10.0] Яркость фонарика
-#define HAND_HELD_TORCH_RANGE 15.0 // [1.0 20.0] Дальность света ручного фонарика
-#define HAND_HELD_TORCH_INTENSITY 1.2 // [0.1 2.0] Интенсивность света ручного фонарика
-#define HAND_HELD_TORCH_COLOR_R 1.0 // [0.0 1.0] Красный компонент цвета света
-#define HAND_HELD_TORCH_COLOR_G 0.9 // [0.0 1.0] Зелёный компонент цвета света
-#define HAND_HELD_TORCH_COLOR_B 0.8 // [0.0 1.0] Синий компонент цвета света
+#define HANDHELD_LIGHT_RANGE 10 // [1 2 3 4 5 6 7 8 9 10 15 20 25 30 35 40 45 50 55 60 65 70 75 80 85 90 95 100]
+#define TORCH_BRIGHTNESS 1.0 // [0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0 1.1 1.2 1.3 1.4 1.5 1.6 1.7 1.8 1.9 2.0]
+#define TORCH_HORIZONTAL_OFFSET 0.75 // [0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0]
+#define TORCH_V_OFFSET 0.3 // [0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0]
+#define TORCH_Z_OFFSET 0.02 // [0.0 0.01 0.015 0.02 0.025 0.03 0.04 0.05 0.06 0.07 0.08 0.09 0.1 0.15]
+#define FLASH_LIGHT 0 // [0 1]
+#define FLASH_LIGHT_CRISPNESS 1.0 // [0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0]
+#define FLASH_LIGHT_WIDTH 1.0 // [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0]
 
 ////////////////////////////////////////
 // ----- WATER RELATED SETTINGS ----- //
