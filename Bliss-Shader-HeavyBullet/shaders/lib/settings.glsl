@@ -14,12 +14,12 @@
 #define HANDHELD_LIGHT_COLOR_B 0.6 // [0.0 0.1 0.2 0.5 1.0] синий компонент цвета
 
 // Flashlight Settings
-#define FLASH_LIGHT 0 //[0 1]
-#define FLASHLIGHT_BRIGHTNESS 5.0 //[0.1 10.0]
-#define FLASHLIGHT_WIDTH 1.0 //[0.1 1.0]
-#define FLASHLIGHT_FLICKER_STR 0.0 //[0.0 1.0]
-#define FLASHLIGHT_FLICKER_SPEED 1.0 //[0.1 5.0]
-#define FLASHLIGHT_DISTANCE 1.0 //[1.0 10.0]
+#define FLASH_LIGHT 1 //[0 1 2] Включение/выключение фонарика
+#define FLASH_LIGHT_WIDTH 1.0 //[0.1 1.0] Ширина светового конуса
+#define FLASH_LIGHT_CRISPNESS 3.0 //[1.0 5.0] Чёткость границ фонарика
+#define FLASH_LIGHT_LISTED_ITEMS_ONLY 0 //[0 1] Только для определённых предметов
+#define FLASHLIGHT_BRIGHTNESS 5.0 //[0.1 10.0] Яркость фонарика
+#define HAND_HELD_TORCH_RANGE 10.0 //[1.0 20.0] Дальность света
 
 ////////////////////////////////////////
 // ----- WATER RELATED SETTINGS ----- //
